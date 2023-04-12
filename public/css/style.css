@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #dac1c1;
+    margin: 0;
+    font: 500 100% system-ui, sans-serif;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    height: 100vh;
+  }
+  
+  .wrapper > * {
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    flex: 0 0 40px;
+    align-items: center;
+    background: rgb(48, 48, 48);
+  }
+  
+  .header .nav {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .header a {
+    color: yellow;
+  }
+  
+  .main {
+    background: rgb(48, 48, 96);
+    color: yellow;
+    flex: 1;
+  }
+  
+  .footer {
+    flex: 0 0 40px;
+    background: rgb(48, 48, 48);
+    color: yellow;
+  }
+  
